@@ -1,0 +1,130 @@
+/* General Body Style */
+body {
+  background-color: IndianRed;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  animation: fadeIn 1.2s ease-in;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  padding: 25px;
+  color: azure;
+  font-size: 40px;
+  animation: pulseGlow 2s infinite ease-in-out;
+  border: 2px solid Azure;
+}
+
+/* Horizontal Rule */
+hr {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid azure;
+}
+
+/* Buttons Container */
+.bodycode {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Buttons Styling */
+button {
+  margin: 10px;
+  border: 2px solid Azure;
+  background-color: LightCoral;
+  color: Azure;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 50px;
+}
+
+button:hover {
+  background-color: azure;
+  color: PaleVioletRed;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px azure;
+}
+
+/* Output Section */
+.peekaboo {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+/* Magic Output Text */
+#magic {
+  font-family: cursive;
+  color: PaleGreen;
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Paragraph Styling */
+p {
+  color: Azure;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 10px azure;
+  }
+  50% {
+    text-shadow: 0 0 20px white;
+  }
+}
+
+/* Testimonial Container */
+.testimonial-container {
+  background-color: LightCoral;
+  margin: 60px auto;
+  padding: 40px 20px;
+  max-width: 800px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px azure;
+  color: azure;
+}
+
+/* Title */
+.testimonial-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 0 0 6px azure;
+}
+
+/* Testimonial Text */
+.testimonial blockquote {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonial footer {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+img{
+  width: 350px;
+  height: 350px;
+  position: relative;
+  padding-left: 600px ;
+}
